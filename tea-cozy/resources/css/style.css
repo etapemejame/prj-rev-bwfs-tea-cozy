@@ -1,0 +1,167 @@
+body {
+  display: block;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+  margin: 0;
+  background-color: black;
+  height: 2238px;
+  width: 100%;
+}
+
+header {
+  position: fixed;
+  display: flex;
+  height: 69px;
+  width: 100%;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  padding-top: 0;
+  align-items: center;
+  z-index: 5;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+  display: block;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-decoration: underline;
+}
+
+div {
+  display: block;
+}
+
+header a {
+  color: seashell;
+}
+
+.main-content {
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1200px;
+    margin: auto;
+}
+
+div {
+    display: block;
+}
+
+#mission {
+  height: 700px;
+  background-image: url("../images/mission-background.jpg");
+  padding-top: 70px;
+}
+
+.mission-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#mission .content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+h2, h3, h4 {
+  display: block;
+  margin: 0;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  font-weight: bold;
+}
+
+#tea-item {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item img {
+  display: block;
+  height: 200px;
+  width: 300px;
+}
+
+.item {
+  padding: 5px;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.item span {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#locations {
+  height: 500px;
+  padding-top: 70px;
+  background-image: url("../images/locations-background.jpg");
+}
+
+#locations .mission-flex {
+  margin: auto;
+  width: 1100px;
+}
+.mission-flex .address {
+  padding-top: 5px;
+}
+
+.address {
+  opacity: 1.0;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p{
+  display: block;
+  font-family: Helvetica;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.contact {
+  height: 200px;
+  display: block;
+}
+
+h5 {
+  display: block;
+  font-size: 0.83em;
+  font-weight: bold;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
